@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simulator examen licență</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Licență Management 2026</p>
+        <h1>Simulator examen</h1>
+        <p class="sub">Examen: 45 întrebări × 2 puncte + 10 puncte din oficiu. Practică: pe categorii, fără punctaj. Învățare: vezi întrebări, variante și răspunsul corect.</p>
+      </div>
+      <div class="score-card">
+        <span id="modeLabel">Alege modul</span>
+        <strong id="scoreLabel">—</strong>
+      </div>
+    </header>
+
+    <section id="start" class="panel">
+      <h2>Alege modul</h2>
+      <div class="cards three">
+        <button class="mode" onclick="startExam()">
+          <strong>Simulare examen</strong>
+          <span>Economie 5, Management General 20, Afaceri 10, MRU 10</span>
+        </button>
+        <button class="mode" onclick="showPractice()">
+          <strong>Practică pe categorii</strong>
+          <span>Răspunzi fără punctaj și vezi imediat corect/greșit</span>
+        </button>
+        <button class="mode" onclick="showLearn()">
+          <strong>Mod învățare</strong>
+          <span>Navighezi prin categorii și vezi răspunsurile corecte</span>
+        </button>
+      </div>
+      <div id="practicePicker" class="hidden picker">
+        <h3>Alege categoria pentru practică</h3>
+        <div id="categoryButtons" class="cat-grid"></div>
+      </div>
+      <div id="learnPicker" class="hidden picker">
+        <h3>Alege categoria pentru învățare</h3>
+        <div id="learnCategoryButtons" class="cat-grid"></div>
+      </div>
+    </section>
+
+    <section id="quiz" class="panel hidden">
+      <div class="topbar">
+        <button class="ghost" onclick="goHome()">← Înapoi</button>
+        <div class="progress"><span id="progressText"></span><div><i id="progressBar"></i></div></div>
+      </div>
+      <article class="question-card">
+        <div class="q-meta"><span id="qCategory"></span><span id="qNumber"></span></div>
+        <h2 id="questionText"></h2>
+        <div id="answers" class="answers"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <div class="actions">
+          <button id="nextBtn" onclick="nextQuestion()" disabled>Următoarea</button>
+          <button class="ghost" onclick="finishQuiz()">Finalizează</button>
+        </div>
+      </article>
+    </section>
+
+    <section id="learn" class="panel hidden">
+      <div class="topbar learn-topbar">
+        <button class="ghost" onclick="goHome()">← Înapoi</button>
+        <div class="learn-controls">
+          <label for="learnCategorySelect">Categoria</label>
+          <select id="learnCategorySelect" onchange="startLearn(this.value)"></select>
+          <label for="learnJump">Întrebarea</label>
+          <select id="learnJump" onchange="jumpLearnQuestion(Number(this.value))"></select>
+        </div>
+      </div>
+      <article class="question-card learn-card">
+        <div class="q-meta"><span id="learnCategory"></span><span id="learnNumber"></span></div>
+        <h2 id="learnQuestionText"></h2>
+        <div id="learnAnswers" class="answers learn-answers"></div>
+        <div id="learnCorrect" class="feedback ok"></div>
+        <div class="actions split">
+          <button class="ghost" onclick="prevLearnQuestion()">← Anterioara</button>
+          <button onclick="nextLearnQuestion()">Următoarea →</button>
+        </div>
+      </article>
+    </section>
+
+    <section id="result" class="panel hidden"></section>
+  </main>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
