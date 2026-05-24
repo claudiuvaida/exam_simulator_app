@@ -62,15 +62,17 @@ function showQuestion(){
   $("progressBar").style.width = `${((state.index + 1) / total) * 100}%`;
   $("qCategory").textContent = q.category;
   $("qNumber").textContent = `Nr. ${q.nr}`;
-  $("questionText").textContent = q.question;
+  $("questionText").innerHTML = formatText(q.question);
   $("feedback").className = "feedback hidden";
   $("feedback").innerHTML = "";
   $("nextBtn").disabled = true;
   $("nextBtn").textContent = state.index === total - 1 ? "Vezi rezultatul" : "Următoarea";
-  $("answers").innerHTML = q.answers.map(a => `<button class="answer" onclick="chooseAnswer('${a.key}')"><b>${a.key}.</b> ${escapeHtml(a.text)}</button>`).join("");
+  $("answers").innerHTML = q.answers.map(a => `<button class="answer" onclick="chooseAnswer('${a.key}')"><b>${a.key}.</b> ${formatText(a.text)}</button>`).join("");
   updateScore();
 }
-
+function formatText(str){
+  return escapeHtml(str).replace(/\\n/g, "<br>").replace(/\n/g, "<br>");
+}
 function chooseAnswer(key){
   if(state.locked) return;
   state.locked = true;
@@ -85,8 +87,8 @@ function chooseAnswer(key){
   });
   $("feedback").className = `feedback ${correct ? "ok" : "no"}`;
   $("feedback").innerHTML = correct
-    ? `Corect ✅ Răspuns: <b>${q.correct}</b> — ${escapeHtml(q.correctText)}`
-    : `Greșit ❌ Ai ales <b>${key}</b>. Corect era <b>${q.correct}</b> — ${escapeHtml(q.correctText)}`;
+    ? `Corect ✅ Răspuns: <b>${q.correct}</b> — ${formatText(q.correctText)}`
+    : `Greșit ❌ Ai ales <b>${key}</b>. Corect era <b>${q.correct}</b> — ${formatText(q.correctText)}`;
   $("nextBtn").disabled = false;
   updateScore();
 }
@@ -135,13 +137,13 @@ function showLearnQuestion(){
   renderLearnSelectors();
   $("learnCategory").textContent = q.category;
   $("learnNumber").textContent = `Întrebarea ${learnState.index + 1} din ${learnState.questions.length} · Nr. ${q.nr}`;
-  $("learnQuestionText").textContent = q.question;
+  $("learnQuestionText").innerHTML = formatText(q.question);
   $("learnAnswers").innerHTML = q.answers.map(a => {
     const cls = a.key === q.correct ? "answer good static-answer" : "answer static-answer";
     const mark = a.key === q.correct ? " ✅" : "";
-    return `<div class="${cls}"><b>${a.key}.</b> ${escapeHtml(a.text)}${mark}</div>`;
+    return `<div class="${cls}"><b>${a.key}.</b> ${formatText(a.text)}${mark}</div>`;
   }).join("");
-  $("learnCorrect").innerHTML = `Răspuns corect: <b>${q.correct}</b> — ${escapeHtml(q.correctText)}`;
+  $("learnCorrect").innerHTML = `Răspuns corect: <b>${q.correct}</b> — ${formatText(q.correctText)}`;
   updateScore();
 }
 
