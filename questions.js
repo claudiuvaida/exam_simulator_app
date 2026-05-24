@@ -8977,7 +8977,7 @@ window.QUESTIONS = [
     "id": "Managementul R. U.-25",
     "nr": 25,
     "category": "Managementul R. U.",
-    "question": "Principalele cauze ale fluctuației forței de muncă și a absenteismului sunt date de:\n 1. atribuirea de lucrări sub posibilitățile lucrătorilor \n 2. lipsa perspectivei de avansare \n 3. tratamentul neechitabil și adesea abuziv al cadrelor de conducere directe \n 4. retribuția mai bună în altă organizație \n 5. aprovizionarea locului de muncă cu materialele necesare, precum și funcționarea corespunzătoare a utilajelor",
+    "question": "Principalele cauze ale fluctuației forței de muncă și a absenteismului sunt date de: \n 1. atribuirea de lucrări sub posibilitățile lucrătorilor \n 2. lipsa perspectivei de avansare \n 3. tratamentul neechitabil și adesea abuziv al cadrelor de conducere directe \n 4. retribuția mai bună în altă organizație \n 5. aprovizionarea locului de muncă cu materialele necesare, precum și funcționarea corespunzătoare a utilajelor",
     "answers": [
       {
         "key": "A",
