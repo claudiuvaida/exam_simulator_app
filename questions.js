@@ -8977,7 +8977,7 @@ window.QUESTIONS = [
     "id": "Managementul R. U.-25",
     "nr": 25,
     "category": "Managementul R. U.",
-    "question": "Principalele cauze ale fluctuației forței de muncă și a absenteismului sunt date de:",
+    "question": "Principalele cauze ale fluctuației forței de muncă și a absenteismului sunt date de:\n 1. atribuirea de lucrări sub posibilitățile lucrătorilor \n 2. lipsa perspectivei de avansare \n 3. tratamentul neechitabil și adesea abuziv al cadrelor de conducere directe \n 4. retribuția mai bună în altă organizație \n 5. aprovizionarea locului de muncă cu materialele necesare, precum și funcționarea corespunzătoare a utilajelor",
     "answers": [
       {
         "key": "A",
@@ -14493,7 +14493,7 @@ window.QUESTIONS = [
     "id": "Managementul Afacerilor-99",
     "nr": 99,
     "category": "Managementul Afacerilor",
-    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:",
+    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:\n 1. O companie străină care intră pe piața din România prin filială sau reprezentanță se poate asocia cu un partener local. \n 2. Compania străină care intră pe piața românească dorește să testeze compatibilitatea dintre oferta ei și capacitatea de absorbție a pieței din România. \n 3. În cererea de autorizare, societatea sau organizația economică străină care solicită eliberarea unei autorizații de reprezentanță va menționa dacă are filiale și în alte țări. \n 3. În cererea de autorizare, societatea sau organizația economică străină care solicită eliberarea unei autorizații de reprezentanță va menționa dacă are filiale și în alte țări.",
     "answers": [
       {
         "key": "A",
@@ -14523,7 +14523,7 @@ window.QUESTIONS = [
     "id": "Managementul Afacerilor-100",
     "nr": 100,
     "category": "Managementul Afacerilor",
-    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:",
+    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:\n 1. La alegerea formei de organizare a unei afaceri se ține cont ca aceasta să restricționeze plata. \n 2. Prin întreprindere se înțelege o formă de organizare a afacerilor în care nu este necesar managementul lor. \n 3. Prin întreprindere se înțelege o organizație neguvernamentală. \n 4. Societățile pot fi organizate cu răspundere limitată.",
     "answers": [
       {
         "key": "A",
