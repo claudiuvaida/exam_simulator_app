@@ -3174,7 +3174,7 @@ window.QUESTIONS = [
       {
         "key": "E",
         "text": "in conditii de certitudine - variantele cu care se opereaza nu pot fii controlabile, realizarea obiectivului este cu un anumit grad de risc"
-      },
+      }
     ],
     "correct": "B",
     "correctText": "în condiții de certitudine - se cunosc variantele de realizare a obiectivelor, iar alternativele cu care se operează sunt controlabile, existând posibilitatea de previzionare a lor"
