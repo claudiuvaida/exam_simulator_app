@@ -1616,8 +1616,8 @@ window.QUESTIONS = [
         "text": "1500 RON"
       }
     ],
-    "correct": "A",
-    "correctText": "2000 RON"
+    "correct": "B",
+    "correctText": "1000 RON"
   },
   {
     "id": "Economie-55",
