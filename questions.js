@@ -4019,7 +4019,7 @@ window.QUESTIONS = [
     "id": "Management General-80",
     "nr": 80,
     "category": "Management General",
-    "question": "Elementele caracteristice postului sunt:\n a. obiective individuale \n b. sarcini \n c. competențe \n d. responsabilități \n e. pondere ierarhică",
+    "question": "Elementele caracteristice postului sunt:\n a. obiective individuale \n b. sarcini \n c. competențe \n d. responsabilități \n e. pondere ierarhică \n f. competentă profesională \n g. responsabilitatea",
     "answers": [
       {
         "key": "A",
