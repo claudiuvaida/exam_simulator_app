@@ -3162,7 +3162,19 @@ window.QUESTIONS = [
       {
         "key": "B",
         "text": "în condiții de certitudine - se cunosc variantele de realizare a obiectivelor, iar alternativele cu care se operează sunt controlabile, existând posibilitatea de previzionare a lor"
-      }
+      },
+      {
+        "key": "C",
+        "text": "în condiții de incertitudine - variantele cu care se opereaza nu pot fi controlabile, realizarea obiectivului este un anumit grad de risc"
+      },
+      {
+        "key": "D",
+        "text": "in conditii de risc - se opereaza cu variante necontrolabile a caror evolutie nu poate fi previzionata, iar posibilitatea initiala de atingere a obiectivului este considerata nula"
+      },
+      {
+        "key": "E",
+        "text": "in conditii de certitudine - variantele cu care se opereaza nu pot fii controlabile, realizarea obiectivului este cu un anumit grad de risc"
+      },
     ],
     "correct": "B",
     "correctText": "în condiții de certitudine - se cunosc variantele de realizare a obiectivelor, iar alternativele cu care se operează sunt controlabile, existând posibilitatea de previzionare a lor"
@@ -14463,7 +14475,7 @@ window.QUESTIONS = [
     "id": "Managementul Afacerilor-98",
     "nr": 98,
     "category": "Managementul Afacerilor",
-    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:",
+    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:\n 1. Există elemente de conexiune între managementul militar și managementul afacerilor. \n 2. Există interferențe între managementul afacerilor și managementul public. \n 3. Managementul este definit ca un proces prin care activitățile unei organizații sunt urmărite statistic. \n 4. Randamentul managementului poate fi măsurat prin activități non profit.",
     "answers": [
       {
         "key": "A",
