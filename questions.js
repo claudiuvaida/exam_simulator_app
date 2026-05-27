@@ -2396,7 +2396,7 @@ window.QUESTIONS = [
         "text": "presupune dimensionarea exactă a efectelor potențiale"
       }
     ],
-    "correct": "B",
+    "correct": "A",
     "correctText": "presupune restrângerea sau diversificarea domeniilor de activitate"
   },
   {
