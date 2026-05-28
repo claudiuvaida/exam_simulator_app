@@ -453,31 +453,31 @@ window.QUESTIONS = [
     "id": "Economie-16",
     "nr": 16,
     "category": "Economie",
-    "question": "Subiectul principal al economiei de piață este:",
+    "question": "Veniturile realizate de catre cetatenii romani care lucreaza in Italia sunt incluse in.",
     "answers": [
       {
         "key": "A",
-        "text": "statul"
+        "text": "PIB al Romaniei si PNB al Italiei"
       },
       {
         "key": "B",
-        "text": "întreprinderea"
+        "text": "PNB al Romaniei si PIB al Italiei"
       },
       {
         "key": "C",
-        "text": "gospodăria"
+        "text": "PIN al Romaniei si PNN al Italiei"
       },
       {
         "key": "D",
-        "text": "piața"
+        "text": "PNN al Romaniei si PNB al Italiei "
       },
       {
         "key": "E",
-        "text": "agenții economici"
+        "text": "PNN al Romaniei si PNN al Italiei"
       }
     ],
     "correct": "B",
-    "correctText": "întreprinderea"
+    "correctText": "PNB al Romaniei si PIB al Italiei"
   },
   {
     "id": "Economie-17",
@@ -1593,11 +1593,11 @@ window.QUESTIONS = [
     "id": "Economie-54",
     "nr": 54,
     "category": "Economie",
-    "question": "O persoană deține un cont la bancă de 20.000 RON, iar banca practică o rată anuală a dobânzii de 10%. Ce valoare are dobânda după o perioadă de 6 luni?",
+    "question": "Determinati cantitatea de produse care asigura realizarea unui profit anual de 50 milioane RON, in cazul in care firma inregistreaza un cost fix global anual de 100 milioane RON, un cost mediu 250000 RON/produs si vinde produsele la un pret unitar de 350000 u.m.
     "answers": [
       {
         "key": "A",
-        "text": "2000 RON"
+        "text": "1500 RON"
       },
       {
         "key": "B",
@@ -1605,19 +1605,19 @@ window.QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "100 RON"
+        "text": "2000 RON"
       },
       {
         "key": "D",
-        "text": "500 RON"
+        "text": "4000 RON"
       },
       {
         "key": "E",
-        "text": "1500 RON"
+        "text": "3750 RON"
       }
     ],
-    "correct": "B",
-    "correctText": "1000 RON"
+    "correct": "A",
+    "correctText": "1500 RON"
   },
   {
     "id": "Economie-55",
@@ -2433,31 +2433,31 @@ window.QUESTIONS = [
     "id": "Management General-27",
     "nr": 27,
     "category": "Management General",
-    "question": "Structura organizatorică reprezintă:",
+    "question": "Organizarea procesurala, ca metoda de organizare:",
     "answers": [
       {
         "key": "A",
-        "text": "ansamblul persoanelor care prestează munci omogene sau complementare"
+        "text": "presupune un numar redus de compartimente"
       },
       {
         "key": "B",
-        "text": "totalitatea posturilor care prezintă aceleași caracteristici principale"
+        "text": "consta in descompunerea proceselor de munca fizica si intelectuala in elemente componente (operatii, timpi, miscari, etc.) "
       },
       {
         "key": "C",
-        "text": "ansamblul obiectivelor, sarcinilor, competențelor și responsabilităților ce revin spre execuție unui singur angajat"
+        "text": "reprezinta o combinatie intre toate elementele organizatorice"
       },
       {
         "key": "D",
-        "text": "totalitatea subdiviziunilor organizatorice aflate la aceeași distanță ierarhică față de managementul superior"
+        "text": "reprezinta gruparea functiilor si a atributiilor in raport cu anumite criterii si repartizarea acestora pe grupe de angajati, pentru executare"
       },
       {
         "key": "E",
-        "text": "ansamblul persoanelor și subdiviziunilor organizatorice, precum și al relațiilor dintre acestea, constituite astfel încât să asigure realizarea obiectivelor firmei"
+        "text": "depinde decisiv de intuitia si capacitatea decizionala a managerilor de top"
       }
     ],
     "correct": "B",
-    "correctText": "totalitatea posturilor care prezintă aceleași caracteristici principale"
+    "correctText": "consta in descompunerea proceselor de munca fizica si intelectuala in elemente componente (operatii, timpi, miscari, etc.)"
   },
   {
     "id": "Management General-28",
@@ -3183,31 +3183,31 @@ window.QUESTIONS = [
     "id": "Management General-52",
     "nr": 52,
     "category": "Management General",
-    "question": "Prin antrenare, ca funcție a managementului, se înțelege:",
+    "question": "Rolul deciziei in managamentul firmei este subliniat de faptul ca:",
     "answers": [
       {
         "key": "A",
-        "text": "capacitatea managerului de a prevedea evoluția firmei"
+        "text": "prin intermediul ei se determina locul fiecarei verigi organizationale a firmeri, a fiecarei subunitati si a fiecarui salariat, la solutionarea sarcinilor preconizate"
       },
       {
         "key": "B",
-        "text": "fiecare salariat participă la progresul firmei"
+        "text": "fiecare salariat participa la progresul firmei"
       },
       {
         "key": "C",
-        "text": "se adoptă corecturile necesare pentru desfășurarea eficientă a activității în firmă"
+        "text": "se adopta corecturile necesare pentru desfasurarea eficienta a activitatii in firma"
       },
       {
         "key": "D",
-        "text": "reprezintă totalitatea mijloacelor prin care se acționează asupra factorului uman în vederea realizării obiectivelor stabilite"
+        "text": "reprezinta hotararea care are urmari nemijlocite exclusiv asupra actiunilor managerilor"
       },
       {
         "key": "E",
-        "text": "generează doar efecte izolate, la nivel de firmă"
+        "text": "genera doar efecte izolate, la nivel de firma "
       }
     ],
     "correct": "A",
-    "correctText": "capacitatea managerului de a prevedea evoluția firmei"
+    "correctText": "prin intermediul ei se determina locul fiecarei verigi organizationale a firmei, a fiecarei subunitati si a fiecarui salariat, la solutionarea sarcinilor preconizate"
   },
   {
     "id": "Management General-53",
@@ -8209,61 +8209,61 @@ window.QUESTIONS = [
     "id": "Management General-219",
     "nr": 219,
     "category": "Management General",
-    "question": "Care dintre următoarele variante reprezintă caracteristici ale întreprinderilor mici și mijlocii:\n 1. dimensiunea lor redusă \n 2. flexibilitate mare \n 3. specializare excesivă \n 4. adaptabilitate la schimbare \n 5. posibilitatea de a accesa resurse nelimitate",
+    "question": "Precizati combinatia corecta adevarat/fals in cazul urmatoarelor afirmatii:\n 1.Cultura organizationala se manifesta prin simboluri de suprafata si de profunzime. \n 2.Limbajul folosit, folclorul organizatiei apartine palierului visibil al culturii organizationale. \n 3.Vestimentatia angajatilor aparatine palierului visibil  al culturii organizationale. \n 4.Satisfactia angajatilor apartine palierului visibil al culturii organizationale.",
     "answers": [
       {
         "key": "A",
-        "text": "1, 2, 4"
+        "text": "A, A, A, A"
       },
       {
         "key": "B",
-        "text": "2, 3, 5"
+        "text": "F, F, F, F"
       },
       {
         "key": "C",
-        "text": "1, 3, 4"
+        "text": "A, A, A, F"
       },
       {
         "key": "D",
-        "text": "1, 2, 3, 4"
+        "text": "F, F, F, F"
       },
       {
         "key": "E",
-        "text": "1, 2, 3, 4, 5"
+        "text": "F, F, A, A"
       }
     ],
     "correct": "C",
-    "correctText": "1, 3, 4"
+    "correctText": "A, A, A, F"
   },
   {
     "id": "Management General-220",
     "nr": 220,
     "category": "Management General",
-    "question": "Este considerat manager de cunoștințe:",
+    "question": "Precizati combinatia corecta adevarat/fals in cazul urmatoarelor afirmatii:\n 1.Scopurile, intentiile, aspiratiile fundamentale pentru un orizant mare de timp sunt exprimate  in misiunea firmei. \n 2.Patrunderea pe noi piete de desfacere poate constitui o optiune strategica.\n 3.Resursele de care dispune firma pot fi proprii, atrase sau imprumutate. \n 4. Realizarea de catre o firma a unor produse sau servicii superioare, comparativ cu oferta de articole similare ale majoritatii concurentilor constituie un avantaj competitiv.",
     "answers": [
       {
         "key": "A",
-        "text": "managerul care se bazează exclusiv pe experiența practică"
+        "text": "A, A, A, A"
       },
       {
         "key": "B",
-        "text": "managerul care gestionează și valorifică resursele informaționale și cunoștințele organizației"
+        "text": "F, F, F, F"
       },
       {
         "key": "C",
-        "text": "managerul care aplică doar metode tradiționale de conducere"
+        "text": "A, A, F, F"
       },
       {
         "key": "D",
-        "text": "managerul care exclude utilizarea tehnologiilor informaționale"
+        "text": "F, F, A, A"
       },
       {
         "key": "E",
-        "text": "managerul care evită schimbarea organizațională"
+        "text": "A, F, F, F"
       }
     ],
     "correct": "A",
-    "correctText": "managerul care se bazează exclusiv pe experiența practică"
+    "correctText": "A, A, A, A"
   },
   {
     "id": "Managementul R. U.-1",
@@ -14445,7 +14445,7 @@ window.QUESTIONS = [
     "id": "Managementul Afacerilor-97",
     "nr": 97,
     "category": "Managementul Afacerilor",
-    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:",
+    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:\n 1. O companie străină care intră pe piața din România prin filială sau reprezentanță se poate asocia cu un partener local. \n 2. Compania străină care intră pe piața românească dorește să testeze compatibilitatea dintre oferta ei și capacitatea de absorbție a pieței din România. \n3. În cererea de autorizare, societatea sau organizația economică străină care solicită eliberarea unei autorizații de reprezentanță va menționa dacă are filiale și în alte țări. \n 4. Afacerile constau în dezvoltarea de activități non profitabile. ",
     "answers": [
       {
         "key": "A",
@@ -14465,7 +14465,7 @@ window.QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "1A, 2F, 3F, 1A"
+        "text": "1A, 2F, 3F, 4A"
       }
     ],
     "correct": "A",
