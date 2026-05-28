@@ -1593,7 +1593,7 @@ window.QUESTIONS = [
     "id": "Economie-54",
     "nr": 54,
     "category": "Economie",
-    "question": "Determinati cantitatea de produse care asigura realizarea unui profit anual de 50 milioane RON, in cazul in care firma inregistreaza un cost fix global anual de 100 milioane RON, un cost mediu 250000 RON/produs si vinde produsele la un pret unitar de 350000 u.m.
+    "question": "Determinati cantitatea de produse care asigura realizarea unui profit anual de 50 milioane RON, in cazul in care firma inregistreaza un cost fix global anual de 100 milioane RON, un cost mediu 250000 RON/produs si vinde produsele la un pret unitar de 350000 u.m.",
     "answers": [
       {
         "key": "A",
