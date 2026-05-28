@@ -469,7 +469,7 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "PNN al Romaniei si PNB al Italiei "
+        "text": "PNN al Romaniei si PNB al Italiei"
       },
       {
         "key": "E",
