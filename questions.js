@@ -14505,7 +14505,7 @@ window.QUESTIONS = [
     "id": "Managementul Afacerilor-99",
     "nr": 99,
     "category": "Managementul Afacerilor",
-    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:\n 1. O companie străină care intră pe piața din România prin filială sau reprezentanță se poate asocia cu un partener local. \n 2. Compania străină care intră pe piața românească dorește să testeze compatibilitatea dintre oferta ei și capacitatea de absorbție a pieței din România. \n 3. În cererea de autorizare, societatea sau organizația economică străină care solicită eliberarea unei autorizații de reprezentanță va menționa dacă are filiale și în alte țări. \n 3. În cererea de autorizare, societatea sau organizația economică străină care solicită eliberarea unei autorizații de reprezentanță va menționa dacă are filiale și în alte țări.",
+    "question": "Precizați combinația corectă adevărat/fals (A/F) în cazul următoarelor afirmații:\n 1. Întreprinzător este o persoană care nu-și asumă riscuri. \n 2. Alegerea formei de organizare a unei afaceri are implicații în ceea ce privește buna ei desfășurare. \n 3. Dacă întreprinzătorii doresc transformarea formei de organizare a afacerii într-o schemă pe care legea nu o permite, singura soluție este închiderea afacerii inițiale și deschiderea alteia noi. \n 4. La alegerea formei juridice de organizare a afacerii întreprinzătorul trebuie să respecte exclusiv legislația din alte țări.",
     "answers": [
       {
         "key": "A",
