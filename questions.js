@@ -2283,23 +2283,23 @@ window.QUESTIONS = [
     "id": "Management General-22",
     "nr": 22,
     "category": "Management General",
-    "question": "Totalitatea activităților care asigură condițiile necesare realizării obiectivelor individuale și comune ale organizației reprezintă:",
+    "question": "Organigrama este definită ca:",
     "answers": [
       {
         "key": "A",
-        "text": "satisfacția clienților unei companii"
+        "text": "reprezentarea grafică a structurii organizatorice pe baza unor reguli specifice"
       },
       {
         "key": "B",
-        "text": "personalitatea managerului"
+        "text": "planificarea activităților firmei în funcție de relațiile de coordonare"
       },
       {
         "key": "C",
-        "text": "comunicarea cu angajații și modul de lucru"
+        "text": "instrument de lucru utilizat de manageri în procesul de motivare a angajaților"
       },
       {
         "key": "D",
-        "text": "organizarea managerială"
+        "text": "o modalitate managerială de creștere a competitivității firmei."
       },
       {
         "key": "E",
@@ -2307,25 +2307,55 @@ window.QUESTIONS = [
       }
     ],
     "correct": "A",
-    "correctText": "satisfacția clienților unei companii"
+    "correctText": "reprezentarea grafică a structurii organizatorice pe baza unor reguli specifice"
   },
   {
     "id": "Management General-23",
     "nr": 23,
     "category": "Management General",
-    "question": "Managementul strategic are următoarele caracteristici:",
+    "question": "Cultura organizațională cuprinde:",
     "answers": [
       {
         "key": "A",
-        "text": "este un set de acțiuni care vizează exclusiv realizarea de planuri proiectate pentru atingerea obiectivelor firmei"
+        "text": "modul în care o organizație înțelege să se comporte cu angajații"
       },
       {
         "key": "B",
-        "text": "un proces de adaptare în timp a firmei la mediul ambiant (înconjurător), în care funcționează"
+        "text": "valorile, simbolurile, credințele, miturile, ritualurile, ceremoniile și aspirațiile care definesc spațiul spiritual al unei organizații"
       },
       {
         "key": "C",
-        "text": "o concepție de obiective critice într-un sistem de planificare al firmei, care, odată soluționate de către manageri, pot asigura succesul entității respective"
+        "text": "satisfacția clienților a unei companii"
+      },
+      {
+        "key": "D",
+        "text": "personalitatea managerului"
+      },
+      {
+        "key": "E",
+        "text": "comunicarea cu angajații și modul de lucru"
+      }
+    ],
+    "correct": "B",
+    "correctText": "valorile, simbolurile, credințele, miturile, ritualurile, ceremoniile și aspirațiile care definesc spațiul spiritual al unei organizații"
+  },
+  {
+    "id": "Management General-24",
+    "nr": 24,
+    "category": "Management General",
+    "question": "Managementul strategic nu poate fi definit ca:",
+    "answers": [
+      {
+        "key": "A",
+        "text": "un set de acțiuni care vizează exclusiv realizarea de planuri proiectate pentru atingerea obiectivelor firmei"
+      },
+      {
+        "key": "B",
+        "text": "un proces de adaptare în timp a firmei la mediul ambiant (înconjurător) în care funcționează"
+      },
+      {
+        "key": "C",
+        "text": "o colecție de obiective critice într-un sistem de planificare al firmei, care, odată soluționate de către manageri, pot asigura succesul entității respective"
       },
       {
         "key": "D",
@@ -2333,15 +2363,15 @@ window.QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "o activitate a managerilor, care incumbă responsabilități pentru mersul (evoluția) imprimat firmei, asigurându-se un anumit nivel de succes"
+        "text": "o activitate a managerilor, care incumbă responsabilități pentru mersul (evoluția) imprimat firmei asigurându-se un anumit nivel de succes"
       }
     ],
-    "correct": "B",
-    "correctText": "un proces de adaptare în timp a firmei la mediul ambiant (înconjurător), în care funcționează"
+    "correct": "A",
+    "correctText": "un set de acțiuni care vizează exclusiv realizarea de planuri proiectate pentru atingerea obiectivelor firmei"
   },
   {
-    "id": "Management General-24",
-    "nr": 24,
+    "id": "Management General-25",
+    "nr": 25,
     "category": "Management General",
     "question": "Identificați varianta corectă:",
     "answers": [
@@ -2359,19 +2389,19 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "după gradul de participare a managementului firmei la elaborarea strategiilor, acestea pot fi inovaționale sau defensive"
+        "text": "după gradul de participare a managementului firmei la elaborarea strategiilor, acestea pot fi inovaționale sau ofensive"
       },
       {
         "key": "E",
         "text": "după sfera de cuprindere strategiile pot fi de specializare și de diversificare"
       }
     ],
-    "correct": "A",
-    "correctText": "după sfera de cuprindere, strategiile pot fi independente și integrate"
+    "correct": "B",
+    "correctText": "după dinamica obiectivelor, strategiile pot fi de redresare, de consolidare și de dezvoltare"
   },
   {
-    "id": "Management General-25",
-    "nr": 25,
+    "id": "Management General-26",
+    "nr": 26,
     "category": "Management General",
     "question": "Elaborarea unei strategii, indiferent de tipul ei, este un proces complex, în cadrul căruia etapa de analiză:",
     "answers": [
@@ -2397,43 +2427,13 @@ window.QUESTIONS = [
       }
     ],
     "correct": "A",
-    "correctText": "presupune restrângerea sau diversificarea domeniilor de activitate"
-  },
-  {
-    "id": "Management General-26",
-    "nr": 26,
-    "category": "Management General",
-    "question": "Investigarea unei întreprinderi sau a unor componente ale acesteia cu ajutorul unui instrumentar specific, în vederea depistării cauzale a principalelor puncte forte și slabe și, pe această bază, formularea de recomandări de amplificare a potențialului de viabilitate al acesteia reprezintă:",
-    "answers": [
-      {
-        "key": "A",
-        "text": "planificarea activității"
-      },
-      {
-        "key": "B",
-        "text": "diagnosticarea"
-      },
-      {
-        "key": "C",
-        "text": "controlul activității"
-      },
-      {
-        "key": "D",
-        "text": "analiza financiară"
-      },
-      {
-        "key": "E",
-        "text": "organizarea procesuală"
-      }
-    ],
-    "correct": "A",
-    "correctText": "planificarea activității"
+    "correctText": "urmărește stabilirea cât mai exact posibil a locului întreprinderii în mediul în care își desfășoară activitatea"
   },
   {
     "id": "Management General-27",
     "nr": 27,
     "category": "Management General",
-    "question": "Organizarea procesurala, ca metoda de organizare:",
+    "question": "Organizarea procesuală, ca metodă de organizare:",
     "answers": [
       {
         "key": "A",
@@ -2553,37 +2553,37 @@ window.QUESTIONS = [
     "id": "Management General-31",
     "nr": 31,
     "category": "Management General",
-    "question": "Întreprinderea ca sistem se caracterizează prin aceea că:",
+    "question": "Ce tip de strategie este recomandată pentru o finnă profitabilă, cu un sistem de conducere descentralizat şi care acţionează pe o piaţă în plină dezvoltare?",
     "answers": [
       {
         "key": "A",
-        "text": "reprezintă un sistem închis"
+        "text": "strategie de focalizare"
       },
       {
         "key": "B",
-        "text": "este un sistem deschis"
+        "text": "strategie de menţinere"
       },
       {
         "key": "C",
-        "text": "este un sistem complex"
+        "text": "strategie ofensivă"
       },
       {
         "key": "D",
-        "text": "este un sistem dinamic"
+        "text": "strategie defensivă"
       },
       {
         "key": "E",
-        "text": "este un sistem socio-economic"
+        "text": "strategic reactive"
       }
     ],
     "correct": "C",
-    "correctText": "este un sistem complex"
+    "correctText": "strategie ofensivă"
   },
   {
     "id": "Management General-32",
     "nr": 32,
     "category": "Management General",
-    "question": "De regulă, prin sistem deschis înțelegem:",
+    "question": "Deoarece o întreprindere reuneşte resurse umane, materiale, financiare între care se stabilesc multiple şi profunde legături, aceasta este considerată:",
     "answers": [
       {
         "key": "A",
