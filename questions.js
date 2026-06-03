@@ -5299,7 +5299,7 @@ window.QUESTIONS = [
     "id": "Management General-122",
     "nr": 122,
     "category": "Management General",
-    "question": "Informația științifică, recunoscută curent ca resursă economică:\nIdentificați varianta de răspuns corectă.\n a. este un bun \n b. poate fi acumulată (transferată, vândută, consumată) \n c. poate fi comercială \n d. poate fi necomercială \n d. poate fi necomercială \n e. poate fi nevandabilă (protejată ca bun)",
+    "question": "Informația științifică, recunoscută curent ca resursă economică:\nIdentificați varianta de răspuns corectă.\n a. este un bun \n b. poate fi acumulată (transferată, vândută, consumată) \n c. poate fi comercială \n d. poate fi necomercială \n e. poate fi nevandabilă (protejată ca bun)",
     "answers": [
       {
         "key": "A",
