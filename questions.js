@@ -12147,7 +12147,11 @@ window.QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "activitățile economice pot fi desfășurate în toate domeniile, meseriile, ocupațiile sau profesiile pe care legea le permite c. activitățile economice pot fi desfășurate în toate domeniile, meseriile, ocupațiile sau profesiile care pot face obiectul înregistrării în contabilitate"
+        "text": "activitățile economice pot fi desfășurate în toate domeniile, meseriile, ocupațiile sau profesiile pe care legea le permite"
+      },
+      {
+        "key": "C",
+        "text": "activitățile economice pot fi desfășurate în toate domeniile, meseriile, ocupațiile sau profesiile care pot face obiectul înregistrării în contabilitate"
       },
       {
         "key": "D",
